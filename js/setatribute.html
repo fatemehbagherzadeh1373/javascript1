@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test1{
+            background-color: rgb(1, 144, 23);
+            color: rgb(100, 0, 153);
+            font-size: 60px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="demo" class="txt">fatemeh</h1>
+    <script>
+        document.getElementById('demo').setAttribute('title', 'good geir')
+        let x = document.getElementById('demo').getAttribute('title')
+        console.log(x);
+        document.getElementById('demo').setAttribute('class', 'test1')
+    </script>
+</body>
+</html>

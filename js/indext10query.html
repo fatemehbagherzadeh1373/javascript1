@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>menu1</li>
+        <li>menu2</li>
+        <li>menu3</li>
+        <li>menu4</li>
+        <li>menu5</li>
+        <li>menu6</li>
+        <li>menu7</li>
+        
+    </ul>
+</body>
+<script>
+    // let _li = document.querySelector('ul>li:nth-of-type(2)')
+    let _li = document.querySelectorAll('#menu>li')
+    console.log(_li[2].innerHTML);
+    _li[2].innerHTML='<em>text changed!</em>'
+</script>
+</html>

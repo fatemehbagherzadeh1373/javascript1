@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="txt">hello js</h1>
+    <div class="box">
+        <p class="test1">fatemeh.</p>
+    </div>
+    <h3 class="test1">bagherzadeh.</h3>
+    <script>
+       
+        console.log(document.getElementById('txt').innerText)
+        document.getElementById('txt').innerText="change by dom method!"
+
+       
+
+        console.log(document.getElementsByClassName('test1'));
+        document.getElementsByClassName('test1')[1].innerText='change by bagherzadeh'
+    </script>
+</body>
+</html>
